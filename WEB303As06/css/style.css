@@ -1,0 +1,74 @@
+/*
+Name: Lavish Kumar
+Student id: 0823298
+*/
+
+/* Reset margin and padding for HTML and body elements */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* image of famous person*/
+  
+  img{
+    height: 400opx;
+    width: 400px;
+  }
+
+  /* Style the HTML element */
+  html {
+    background-color: rgb(107, 196, 226);
+    border: 2px solid black(2, 10, 15);
+  }
+  
+  /* Style headings h1 and h2 */
+  h1, h2 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    border: 2px solid black;
+  }
+  
+  /* Style buttons */
+  button {
+    width: 100%;
+    background-color: rgb(235, 235, 243);
+    font-size: 3em;
+  }
+  
+  /* Hide elements with class "accord-panel" */
+  .accord-panel {
+    display: none;
+  }
+  
+  /* Style elements with class "accord" */
+  .accord {
+    list-style-type: none;
+  }
+  
+  /* Style a list with class "tab-list" */
+  .tab-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style list items within "tab-list" */
+  .tab-list li {
+    display: inline-block;
+    background-color: bisque;
+  }
+  
+  /* Style links within list items */
+  .tab-list li a {
+    display: block;
+    color: blue;
+    padding: 3px 10px;
+  }
+  
+  /* Style active list items within "tab-list" */
+  .tab-list li.active {
+    background-color: rgb(248, 141, 141);
+  }
+  
